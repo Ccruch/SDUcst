@@ -1,6 +1,12 @@
 import time
+from hashlib import sha256
 from random import randint as rd
-3start = time.time()
+start = time.time()
+
+def sha(s):
+    msg = bytes(bytearray(s, encoding = 'utf-8'))
+    return sha256(msg).hexdigest()
+
 while 1:
     x = str(rd(0, 2**256))
     y = str(rd(0, 2**256))
@@ -10,5 +16,3 @@ while 1:
         break
 end = time.time()
 print("It cost", end - start, "s")
-
-        
