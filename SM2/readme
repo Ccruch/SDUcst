@@ -1,1 +1,3 @@
 ECMH.py : Implemented ECMH scheme
+pre_SM2.py : Operations on EC and some algorithm
+SM2_s&v.py : SM2 sign & verify algorithm, should import module 'pre_SM2'
