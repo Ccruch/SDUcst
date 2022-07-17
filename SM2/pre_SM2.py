@@ -1,4 +1,3 @@
-import secrets
 
 A = 0
 B = 7
@@ -7,7 +6,7 @@ G_Y = 32670510020758816978083085130507043184471273380659243275938904335757337482
 G = (G_X, G_Y)
 P = 115792089237316195423570985008687907853269984665640564039457584007908834671663
 N = 115792089237316195423570985008687907852837564279074904382605163141518161494337
-
+h = 1
 
 def inv(a, n):
     '''求逆'''
@@ -90,7 +89,8 @@ def EC_multi(s, p):
 
 
 def get_bit_num(x):
-    if isinstance(x, int):
+    """获得x的比特长度"""
+    if isinstance(x, int):  # when int
         num = 0
         tmp = x >> 64
         while tmp:
@@ -105,8 +105,8 @@ def get_bit_num(x):
             num += 1
             x >>= 1
         return num
-    elif isinstance(x, str):
+    elif isinstance(x, str):  #  when string
         return len(x.encode()) << 3
-    elif isinstance(x, bytes):
+    elif isinstance(x, bytes):  # when bytes
         return len(x) << 3
     return 0
