@@ -128,5 +128,3 @@ if __name__=='__main__':
 
     plain = SM2_dec(c, sk)
     print('\n\nplaintext from ciphertext:', plain)
-
-    xixi = '0000'
