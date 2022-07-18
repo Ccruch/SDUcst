@@ -1,1 +1,3 @@
 Birthday attack to SM3 and SHA256.
+
+sha256_BirthdaAttack.py : It cost 32554.278544425964s to find a collision of highest 32-bit
