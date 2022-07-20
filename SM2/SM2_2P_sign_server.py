@@ -9,7 +9,7 @@ def step1(P1):
     :return public_key_P: public key should be published
     """
     d2 = secrets.randbelow(pre_SM2.N)
-    tmp = pre_SM2.inv(d2, pre_SM2.P)
+    tmp = pre_SM2.inv(d2, pre_SM2.N)
     tmp = pre_SM2.EC_multi(tmp, P1)
     public_key_P = pre_SM2.EC_sub(tmp, pre_SM2.G)
     return d2, public_key_P
