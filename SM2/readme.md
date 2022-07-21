@@ -36,4 +36,4 @@ SM2 encryption & decryption algorithm, *should import module 'pre_SM2'*
 
 # PGP_with_SM2.py
 
-Implement a PGP scheme with SM2， the symmetric Enc&Dec is SM4 algorithm
+Implement a PGP scheme with SM2， the symmetric Enc&Dec is SM4 algorithm. *Shouold import module 'mySM2'*
