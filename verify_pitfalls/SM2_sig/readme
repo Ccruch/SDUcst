@@ -20,4 +20,4 @@ Verified reusing k leads to leaking of d(private key)
 
 # same_dk_withECDSA.py
 
-Verified Same d and k with ECDSA, leads to leaking of d(private key)
+Verified same d and k with ECDSA, leads to leaking of d(private key)
