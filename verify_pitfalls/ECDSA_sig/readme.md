@@ -13,6 +13,11 @@ leaking_k.py ：完成了对pitfall1：leaking k leads to leaking of d的验证�
 
 reusing_k.py ：完成了对pitfall2：reusing k leads to leaking of d的验证；需要 import：EC、ECDSA_sv
 
+#### ECDSA签名中，对不同条件下，私钥d的推导情况、推导结果见下图：
+
+![IMG_20220725_154507](https://user-images.githubusercontent.com/105582476/180731987-08d31063-7042-4d21-aa24-7381e1fddfbe.jpg)
+
+
 ### 运行指导
 
 ECDSA_sv.py、leaking_k.py、reusing_k.py 已经设置好一定的消息，直接运行即可。
