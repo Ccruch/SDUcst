@@ -6,6 +6,8 @@ Project1: implement the naïve birthday attack of reduced SM3
 
 Project2: implement the Rho method of reduced SM3
 
+Project3: implement length extension attack for SM3, SHA256, etc
+
 Project4: do your best to optimize SM3 implementation (software)
 
 # 原 同名文件夹 中已经上传了部分代码，因为排版较乱，临时增加说明较困难，故删除，并重新上传。
