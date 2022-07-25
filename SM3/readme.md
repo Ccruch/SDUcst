@@ -2,6 +2,8 @@
 
 ### 包括的project有：
 
+Project1: implement the naïve birthday attack of reduced SM3
+
 Project2: implement the Rho method of reduced SM3
 
 Project4: do your best to optimize SM3 implementation (software)
