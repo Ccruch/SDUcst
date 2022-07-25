@@ -14,6 +14,9 @@ leaking_k.py ：完成了对pitfall1：leaking k leads to leaking of d的验证�
 reusing_k.py ：完成了对pitfall2：reusing k leads to leaking of d的验证；需要 import：pre_SM2、SM2_sv
 
 same_dk_withECDSA.py ：完成了对pitfall7：same d and k with ECDSA, leads to leaking of d的验证；需要 import：pre_SM2、SM2_sv
+#### SM2签名中，对不同条件下，私钥d的推导情况见下图（标注ppt部分是课件ppt中已经显示了相关证明）：
+![IMG_20220725_154454](https://user-images.githubusercontent.com/105582476/180731174-e8375946-8676-4ebe-8170-c14ae25fc603.jpg)
+
 
 ### 运行指导
 
