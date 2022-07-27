@@ -12,7 +12,8 @@ sm3_opti.cpp ： 在编写SM3平凡实现、SM3优化实现的代码时，已经
 
 ### 运行结果
 
-![image](https://user-images.githubusercontent.com/105582476/180785192-a15e8849-b3fc-4691-90cf-3160036992d3.png)
+![image](https://user-images.githubusercontent.com/105582476/181259095-38c67fe0-1b15-4de9-b85a-9ca18ca4e703.png)
+
 
 ### 具体贡献
 
