@@ -2,6 +2,8 @@
 
 ### 包括的project有：
 
+Project07: report on the application of this deduce technique in Ethereum with ECDSA
+
 Project08: impl sm2 with RFC6979
 
 Project10: Implement the above ECMH scheme
